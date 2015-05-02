@@ -11,7 +11,7 @@ MC 1.8 world rendering is quite different from how it was in pre-1.8 versions.
 Historically, MC has used what's known as the _fixed function_ OpenGL pipeline to render, and a technology known as _display lists_ to accelerate it.
 However, these techniques are now decades old, have been depreciated officially since 2008 (de-facto essentially since the late 90s), and far more efficient paths through the driver now exist.
 MC 1.8 starts the long slog towards transitioning to that technology.
-A large segment of the code [tile entities](tileentity.md) and [entities](entity.md) are still using display lists, though TheMogMiner has been making noises to the effect that this won't be the case in 1.9.
+A large segment of the code ([tile entities](tileentity.md) and [entities](entity.md) in particular) are still using display lists, though TheMogMiner has been making noises to the effect that this won't be the case in 1.9.
 Regardless of what 1.9 will bring, we're here to talk about how things currently stand in 1.8.
 
 The entry point for the rendering system is at `EntityRenderer.updateCameraAndRender()`.
