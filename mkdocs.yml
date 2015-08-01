@@ -6,8 +6,8 @@ pages:
     - Home: 'gettingstarted/index.md'
     - Structuring Your Mod: 'gettingstarted/structuring.md'
   - Models & Rendering:
-    - Blockstates: 'blockstates/introduction.md'
-    - Forge Blockstates: 'blockstates/forgeBlockstates.md'
+    - Blockstates: 'rendering/blockstates/introduction.md'
+    - Forge Blockstates: 'rendering/blockstates/forgeBlockstates.md'
   - Networking:
     - Home: 'networking/index.md'
     - Overview: 'networking/overview.md'
